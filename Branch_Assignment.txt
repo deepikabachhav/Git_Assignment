@@ -1,0 +1,57 @@
+> git init 
+	To initialize Git project.
+> git status
+	To check the status of project.
+> git commit -am "Adds two files"
+	To add as well as commit the changes.
+> git branch
+	To see current branches available.
+> git branch second_project
+	To create new branch named as second_project.
+> git branch
+	To see new branch is added or not.
+> cat .git/HEAD
+	To see where head is pointing.
+> cat .git/refs/heads/master
+	Its on master branch.
+> cat .git/HEAD
+> cat .git/refs/heads/second_project
+> git log
+	To see the checksum field.
+> git commit first.txt -m "Adds first.txt file"
+	first commit adds first file.
+> git mv first.txt first_new.txt
+	second commit rename the file.
+> git commit -m "Rename file from first to first_new"
+> git commit -m "Adds some text to first_new file"
+	third commit adds some text in the file.
+> git commit -am "Adds some new_features"
+> git diff master..second_project
+	check difference between branches.
+> git branch --merged master
+> git branch --merged
+	To check whether branches are merged or not.
+> git commit -am "commits all changes"
+> git checkout master
+	switch to master branch.
+> git log
+	check checksum of latest comit.
+> git merge second_project
+	 To merge to branches.
+> git commit -master
+ 
+> git log
+	to check checksum of master branch
+> git log --oneline
+> git commit -m "Adds one line comment"
+> git commit -am "adds something in file"
+> git commit -am "adds one sentence in file"
+	Add more commits in master branch.
+> git checkout second_project
+ 	switch to new branch.
+> git merge master
+	 merge the two branches.
+> git log
+	check cheksum of latest commit.
+
+
